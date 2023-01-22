@@ -1,0 +1,365 @@
+*{
+	margin:1px;
+	padding: 0;
+}
+body{
+	background-color: #8cc7e9;
+}
+nav ul{
+	background-attachment: fixed;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: rgb(176, 200, 145);
+}
+nav ul li{
+	display: inline-flex;
+	flex-direction: row;
+	margin: 40px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: rgb(20, 7, 7);
+}
+nav ul li a:hover{
+	color: rgb(34, 53, 65);
+}
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+.line{
+	display: block;
+	width: 290px;
+	height: 3px;
+	padding: 0 !important;
+	background:#ccc;
+}
+#welcome{
+	background-color: #42698b;
+	min-height: 100%;
+	height: 480px;
+	padding-top: 60px;
+	background-attachment: fixed;
+  	background-position: top;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color: #ddd;
+	padding: 60px;
+	text-align: center;
+}
+#welcome h1{
+	padding-top: 90px;
+	font-size: 90px;
+}
+#welcome h4{
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#welcome p{
+	font-size: 20px;
+	color: rgb(30, 21, 21);
+	padding:30px 30px 0px 30px;
+}
+#welcome button{
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s;
+	cursor: pointer;
+}
+#welcome .button1 { 
+  color: #4ca0af; 
+  border: 2px solid #4CAF50;
+}
+
+#welcome .button1:hover {
+  background-color: #4c8baf;
+  color: white;
+}
+
+#welcome .button2 {
+  color: #841df2; 
+  border: 2px solid #1da1f2;
+}
+
+#welcome .button2:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+
+#welcome .button3 {
+  color: #e1306c; 
+  border: 2px solid #e1306c;
+}
+
+#welcome .button3:hover {
+  background-color: #e1306c;
+  color: white;
+}
+
+#welcome .button4 {
+  color: #0077B5;
+  border: 2px solid #0077B5;
+}
+
+#welcome .button4:hover {
+	background-color: #0077B5;
+	color: white;
+}
+#welcome .button5 {
+  color: #505050;
+  border: 2px solid #443333;
+}
+
+#welcome .button5:hover {
+	background-color: #505050;
+	color: white;
+}
+
+#about{
+	background-color: rgb(238, 238, 238);;
+	padding: 30px;
+	background-image : radial-gradient();
+}
+#about h3{
+	font-size: 30px;
+	text-align: center;
+}
+.about-grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap:20px;
+}
+.about-grid-container > div{
+	padding: 20px 0;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.item_about{
+	grid-column-start:1;
+	grid-column-end:3;
+}
+.item_about p{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.item_img img{
+	width: 100%;
+}
+
+#skills{
+	padding: 40px;
+	background-color: rgb(255, 255, 255);;
+}
+#skills h3{
+	text-align: center;
+	font-family: serif;
+	font-size: 30px;
+}
+.hr1{
+	display: block;
+	margin-left: 40%;
+	width:20%;
+	color: #111;
+	border:2px solid;
+}
+#skills p{
+	padding:30px;
+	text-align: center;
+	font-size: 20px;
+}
+#skills img{
+	width: 10%;
+	padding: 10px;
+}
+.skills-grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+	grid-gap:20px;
+}
+.skill-grid{
+	padding: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+#projects{
+	text-align: center;
+	padding: 30px;
+	background-color: rgb(238, 238, 238);
+}
+#projects h3{
+	font-size: 30px;
+}
+.project-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-gap:20px;
+}
+.project-container a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+.proj{
+	border-radius: 10px;
+	border: 2px solid #555;
+	margin: 40px;
+	padding: 5px;
+	box-shadow: 1px 1px #888888;
+}
+.proj:hover{
+	box-shadow: 5px 10px #888888;
+}
+.proj img{
+	width: 100%;
+	height: auto;
+}
+.project-title{
+	padding: 15px;
+	text-align: center;
+}
+#Education{
+	text-align: center;
+	padding: 30px;
+	background-color: rgb(238, 238, 238);
+}
+.Education-title{
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.Education:hover{
+	box-shadow: 5px 10px #888888;
+}
+#Education h3{
+	font-size: 30px;
+}
+.Education-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-gap:20px;
+}
+.Education-container a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.Eduaction-grid-container > div{
+	padding: 20px 0;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+table, th, td {    
+    border: 3px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 1400px;  
+    text-align: center;  
+    font-size: 20px;  
+}
+#contact{
+	text-align: center;
+	padding: 30px;
+	background-color: rgb(238, 238, 238);
+}
+.contact-title{
+	padding: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+#contact h3{
+	font-size: 30px;
+}
+#contact button{
+		background-color: transparent;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 4px 2px;
+		-webkit-transition-duration:0.4s;
+		transition-duration:0.4s;
+		cursor: pointer;
+}
+#contact .button1 { 
+	  color: #20a663; 
+	  border: 2px solid #4CAF50;
+}
+	
+#contact .button1:hover {
+	  background-color: #4c8baf;
+	  color: white;
+}
+	
+#contact .button2 {
+	  color: #4288b0; 
+	  border: 2px solid #1da1f2;
+}
+	
+#contact .button2:hover {
+	  background-color: #1da1f2;
+	  color: white;
+}
+	
+#contact .button3 {
+	  color: #e1306c; 
+	  border: 2px solid #e1306c;
+}
+	
+#contact .button3:hover {
+	  background-color: #e1306c;
+	  color: white;
+}
+	
+#contact .button4 {
+	  color: #d09357;
+	  border: 2px solid #bfd051;
+}
+	
+#contact .button4:hover {
+		background-color: #ab6b48;
+		color: white;
+}
+#contact .button5 {
+	  color: #505050;
+	  border: 2px solid #443333;
+}
+	
+#contact .button5:hover {
+		background-color: #505050;
+		color: white;
+}
+.skill-grid{
+	padding: 30px;
+	font-size: 30px;
+	text-align: center;
+}	    
+
+footer{
+	background-color: #131313;
+	padding: 30px;
+	color: white;
+}
